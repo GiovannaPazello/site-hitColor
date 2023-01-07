@@ -5,6 +5,16 @@
 .nav-link {
   color: rgb(36, 46, 93);
 }
+@media (min-width: 900px) {
+  .navbar-nav {
+  }
+  @media screen {
+    .navbar-nav {
+      margin-left: 360px;
+    }
+  }
+}
+
 .main-timeline{position:relative}
 .main-timeline:before{content:"";width:5px;height:100%;border-radius:20px;margin:0 auto;background:#F2F2F2;position:absolute;top:0;left:0;right:0}
 .main-timeline .timeline{display:inline-block;margin-bottom:50px;position:relative}
