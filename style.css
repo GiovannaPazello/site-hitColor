@@ -1,6 +1,6 @@
-#section1 {
+#home {
     background-image: url("banner.jpeg");
-    padding-top:150px;
+    padding-top:230px;
 }
 .main-timeline{position:relative}
 .main-timeline:before{content:"";width:5px;height:100%;border-radius:20px;margin:0 auto;background:#F2F2F2;position:absolute;top:0;left:0;right:0}
