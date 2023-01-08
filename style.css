@@ -6,14 +6,11 @@
     }
   }
 }
-@media (min-width: 900px) {
-  .img-200-200 {
-  }
-  @media screen {
+@media (min-width: 320px) and (max-width: 480px) {
     .img-200-200 {
-      width: 369px;
+      flex-flow:column;
+      width: 414px;
     }
-  }
 }
 @media (min-width: 900px) {
   .endereco {
@@ -32,14 +29,6 @@
   @media screen {
     .logo {
       height: 120px;
-    }
-  }
-}
-@media (min-width: 900px) {
-  @media screen {
-    .imagens {
-      padding-left: 400px;
-      padding-right: 394px;
     }
   }
 }
@@ -124,7 +113,6 @@
     box-shadow: 2px 2px 3px #999;
   z-index:100;
 }
-
 .my-float{
-    margin-top:16px;
+  margin-top:16px;
 }
