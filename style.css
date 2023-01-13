@@ -6,10 +6,16 @@
     }
   }
 }
-@media (min-width: 320px) and (min-width: 480px) {
+@media (min-width: 480px) {
     .img-200-200 {
       width: 357px;
     }
+}
+.container img {
+  max-width:350px;
+  max-height:350px;
+  width: auto;
+  height: auto;
 }
 @media (min-width: 900px) {
   .endereco {
