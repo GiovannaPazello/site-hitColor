@@ -8,8 +8,7 @@
 }
 @media (min-width: 320px) and (min-width: 480px) {
     .img-200-200 {
-      flex-flow:column;
-      width: 414px;
+      width: 357px;
     }
 }
 @media (min-width: 900px) {
