@@ -1,517 +1,538 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>HitColor</title>
-        <link rel="shortcut icon" href="/assets/images/favicon-removebg-preview.png" type="image/x-icon" />
-        <!-- CSS only -->   
-        <link rel="stylesheet" type="text/css" href="style.css" />
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>HitColor</title>
+    <link rel="shortcut icon" href="/assets/images/favicon-removebg-preview.png" type="image/x-icon" />
+    <!-- CSS only -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="style.css" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Yomogi&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="handheld.css" media="handheld">
-        <link rel="stylesheet" href="print.css" media="print">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;900&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,900;1,500&display=swap"
-            rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,900;1,500&display=swap"
-            rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;900&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
-        <a href="https://api.whatsapp.com/send?phone=551634161611" class="float" target="_blank">
-            <i class="fa fa-whatsapp my-float"></i>
-        </a>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">  
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
-        <!-- SimpleLightbox plugin CSS-->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-        
-    <body id="page-top">
-        <nav class="navbar justify-content-center" style="background-color: white;">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yomogi&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="handheld.css" media="handheld">
+    <link rel="stylesheet" href="print.css" media="print">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,900;1,500&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,900;1,500&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+    <a href="https://api.whatsapp.com/send?phone=551634161611" class="float" target="_blank">
+        <i class="fa fa-whatsapp my-float"></i>
+    </a>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic"
+        rel="stylesheet" type="text/css" />
+    <!-- SimpleLightbox plugin CSS-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<body id="page-top">
+    <nav class="navbar justify-content-center" style="background-color: white;">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div>
+                    <img src="./assets/images/cropped-logo.png" alt="..." href="#page-top" height="100px">
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="mt-4">
+                    <div class="flex-column">
+                        <p
+                            style="color: rgb(36, 46, 93); font-size: 15px; font-family: Montserrat, sans-serif; @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,900;1,500&display=swap');">
+                            Rua Jesuino de Arruda, 1291 CEP 13560-642</p>
+                    </div>
+                    <div class="flex-column float-left">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-envelope" style="color: rgb(36, 46, 93);" viewBox="0 0 16 16">
+                            <path
+                                d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                        </svg>
+                        <p class="float-left"
+                            style="margin-right:5px; color: rgb(36, 46, 93); font-size: 15px; font-family: Montserrat, sans-serif; @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,900;1,500&display=swap');">
+                            hitcolor@hitcolor.com.br</p>
+                    </div>
+                    <br>
+                    <div class="flex-column float-left">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-whatsapp" style="color: rgb(36, 46, 93);" viewBox="0 0 16 16">
+                            <path
+                                d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+                        </svg>
+                        <p class="float-left"
+                            style="margin-right:5px; color: rgb(36, 46, 93); font-size: 15px; font-family: Montserrat, sans-serif; @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,900;1,500&display=swap');">
+                            Contato: (16) 3416-1611</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <header id="home" class="masthead text-white text-center">
+        <div class="py-3 bg-pattern mb-2" style="background-color: rgb(13,62,105);">
             <div class="container">
-                <div class="row justify-content-center">
-                    <div>
-                        <img src="./assets/images/cropped-logo.png" alt="..." href="#page-top" height="100px">
-                    </div>
-                </div>
-                <div class="row justify-content-center">
-                        <div class="mt-4">
-                            <div class="flex-column">
-                                <p
-                                    style="color: rgb(36, 46, 93); font-size: 15px; font-family: Montserrat, sans-serif; @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,900;1,500&display=swap');">
-                                    Rua Jesuino de Arruda, 1291 CEP 13560-642</p>
-                            </div>
-                            <div class="flex-column float-left">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="bi bi-envelope" style="color: rgb(36, 46, 93);" viewBox="0 0 16 16">
-                                    <path
-                                        d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
-                                </svg>
-                                <p class="float-left"
-                                    style="margin-right:5px; color: rgb(36, 46, 93); font-size: 15px; font-family: Montserrat, sans-serif; @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,900;1,500&display=swap');">
-                                    hitcolor@hitcolor.com.br</p>
-                            </div>
-                            <br>
-                            <div class="flex-column float-left">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="bi bi-whatsapp" style="color: rgb(36, 46, 93);" viewBox="0 0 16 16">
-                                    <path
-                                        d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
-                                </svg>
-                                <p  class="float-left"
-                                    style="margin-right:5px; color: rgb(36, 46, 93); font-size: 15px; font-family: Montserrat, sans-serif; @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,900;1,500&display=swap');">
-                                    Contato: (16) 3416-1611</p>
-                            </div>
-                        </div>
-                </div>
-            </div>
-        </nav>
-        <header id="home" class="masthead text-white text-center">
-            <div class="py-3 bg-pattern mb-2" style="background-color: rgb(13,62,105);">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="text-center text-white">
-                                <span class="heading-xxs"
-                                    style="padding:20px; font-size: 20px; font-family: Montserrat, sans-serif; @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,900;1,500&display=swap');">
-                                    <b>Bem Vindos à HitColor</b>
-                                </span>
-                            </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="text-center text-white">
+                            <span class="heading-xxs"
+                                style="padding:20px; font-size: 20px; font-family: Montserrat, sans-serif; @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,900;1,500&display=swap');">
+                                <b>Bem Vindos à HitColor</b>
+                            </span>
                         </div>
                     </div>
                 </div>
             </div>
-        </header>
-        <section>
-            <div class="container justify-content-center">
-                <img class="img-200-200" src="./assets/images/banner.3jpeg.jpeg" />
-                <img class="img-200-200" src="./assets/images/banner2.jpeg" />
-                <img class="img-200-200" src="./assets/images/banner4.jpeg" />
+        </div>
+    </header>
+    <section>
+        <div class="container justify-content-center">
+            <img class="img-200-200" src="./assets/images/banner.3jpeg.jpeg" />
+            <img class="img-200-200" src="./assets/images/banner2.jpeg" />
+            <img class="img-200-200" src="./assets/images/banner4.jpeg" />
+        </div>
+        <br>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-3 mb-4" style="margin-left: -14%;">
+                    <div class="d-flex mb-6">
+                        <i class="material-icons"
+                            style="font-size:60px;color: rgb(13,62,105);padding-left: 80px; margin-right: 20px;">
+                            qr_code_2</i>
+                        <h6
+                            style="color: rgb(13,62,105); margin-top:20px;font-family: Montserrat, sans-serif; @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,700&display=swap');">
+                            <b>Tecnologia</b>
+                        </h6>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-3 mb-4" style="margin-left: 5%;">
+                    <div class="d-flex mb-6">
+                        <i class="material-icons"
+                            style="font-size:60px;color: rgb(13,62,105);padding-left: 80px; margin-right: 20px;">
+                            settings</i>
+                        <h6
+                            style="color: rgb(13,62,105); margin-top:20px; font-family: Montserrat, sans-serif; @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,700&display=swap');">
+                            <b>Agilidade</b>
+                        </h6>
+
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-3 mb-4" style="margin-left: 5%;">
+                    <div class="d-flex mb-6">
+                        <i class="material-icons"
+                            style="font-size:60px;color: rgb(13,62,105);padding-left: 80px; margin-right: 20px;">
+                            auto_graph</i>
+                        <h6
+                            style="color: rgb(13,62,105); margin-top:20px;font-family: Montserrat, sans-serif; @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,700&display=swap');">
+                            <b>Qualidade</b>
+                        </h6>
+
+                    </div>
+                </div>
             </div>
-            <br>
+        </div>
+
+        <div class="py-3 bg-pattern mb-2 mt-2" style="background-color: rgb(13,62,105);">
             <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-12 col-lg-3 mb-4" style="margin-left: -14%;">
-                        <div class="d-flex mb-6">
-                            <i class="material-icons" style="font-size:60px;color: rgb(13,62,105);padding-left: 80px; margin-right: 20px;">
-                                qr_code_2</i>
-                            <h6
-                                style="color: rgb(13,62,105); margin-top:20px;font-family: Montserrat, sans-serif; @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,700&display=swap');">
-                                <b>Tecnologia</b>
-                            </h6>
-                        </div>
-                    </div>
-
-                    <div class="col-12 col-lg-3 mb-4" style="margin-left: 5%;">
-                        <div class="d-flex mb-6">
-                            <i class="material-icons" style="font-size:60px;color: rgb(13,62,105);padding-left: 80px; margin-right: 20px;">
-                                settings</i>
-                                <h6
-                                    style="color: rgb(13,62,105); margin-top:20px; font-family: Montserrat, sans-serif; @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,700&display=swap');">
-                                    <b>Agilidade</b>
-                                </h6>
-
-                        </div>
-                    </div>
-
-                    <div class="col-12 col-lg-3 mb-4" style="margin-left: 5%;">
-                        <div class="d-flex mb-6">
-                            <i class="material-icons" style="font-size:60px;color: rgb(13,62,105);padding-left: 80px; margin-right: 20px;">
-                                auto_graph</i>
-                            <h6
-                                style="color: rgb(13,62,105); margin-top:20px;font-family: Montserrat, sans-serif; @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,700&display=swap');">
-                                <b>Qualidade</b>
-                            </h6>
-
+                <div class="row">
+                    <div class="col-12">
+                        <div class="text-center text-white tamanho">
+                            <span class="heading-xxs letter-spacing-xl"
+                                style="font-family: Montserrat, sans-serif; @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,900;1,500&display=swap');">
+                                Etiquetas e Ribbons
+                            </span>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="container">
+            <div class="float-left mt-4" style="margin-right: 50px;">
+                <img src="./assets/gifs/video.gif" alt="">
+            </div>
+            <h2 class="text-center mb-4"
+                style="color: rgb(13,62,105); font-size: 30px; font-family: Montserrat, sans-serif; @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,900;1,500&display=swap');">
+                <b>Serviços</b>
+            </h2>
+            <p class="mb-2" style="color: rgb(13,62,105); font-size: 20px;">Nós da Hit Color Produções Gráficas,
+                trabalhamos com flexografia na pré-impressão e corte de etiquetas adesivas e rótulos em rolos/bobinas. A
+                flexografia é indicada para produção de etiquetas adesivas em grandes quantidades. </p>
+            <p style="color: rgb(13,62,105); font-size: 20px;">Estamos situados na cidade de São Carlos, 230Km da cidade
+                de São Paulo, município do interior paulista que possui o título de Capital da Tecnologia pelo seu
+                destaque acadêmico, tecnológico e industrial. </p>
+        </div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6 col-lg-4 mb-5 mt-4">
+                    <img class="img-responsive" src="./assets/images/imagem3.png" alt="...">
+                    <h2><b>Etiquetas brancas</b></h2>
+                    <p><b>Material:</b> Papel Couchê ou Bopp Fosco Adesivo</p>
+                    <a><b>Descrição:</b></a>
+                    <button type="button" id="myBtn" class="btn btn-secondary" data-toggle="modal"
+                        data-target="#etiquetasBrancas">
+                        Saiba mais
+                    </button>
 
-            <div class="py-3 bg-pattern mb-2 mt-2" style="background-color: rgb(13,62,105);">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="text-center text-white tamanho">
-                                <span class="heading-xxs letter-spacing-xl"
-                                    style="font-family: Montserrat, sans-serif; @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,900;1,500&display=swap');">
-                                    Etiquetas e Ribbons
-                                </span>
+                    <div class="modal fade" id="etiquetasBrancas" tabindex="-1" role="dialog"
+                        aria-labelledby="etiquetasBrancasTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title"><b>ETIQUETAS BRANCAS</b></h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p><b>Material:</b> Papel Couchê ou Bopp Fosco Adesivo</p>
+                                    <p><b>Descrição:</b> A etiqueta branca é essencial para gerenciar e organizar um
+                                        estabelecimento de
+                                        modo eficaz e prático e é muito utilizada por possuir uma boa qualidade de
+                                        impressão quando associada ao ribbon correto.
+                                        Como sua classificação revela, não possui nenhum tipo de personalização
+                                        artística e trabalhamos com medidas variadas.
+                                    </p>
+                                    <p><b>Utilização:</b> É utilizada por impressoras térmicas (Zebra, Argox, Elgin,
+                                        Datamax, entre outras) no ramo industrial ou comercial para:</p>
+                                    <p>- Impressão de código de barras;</p>
+                                    <p>- Descrição do produto: data, validade e/ou demais informações;</p>
+                                    <p>- Identificação de embalagens e materiais</p>
+                                    <p>ser colada diretamente sobre a superfície de caixas, plásticos ou outros tipos de
+                                        embalagens.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="container">
-                <div class="float-left mt-4" style="margin-right: 50px;">
-                    <img src="./assets/gifs/video.gif" alt="">
+                <div class="col-md-6 col-lg-4 mb-5 mt-4">
+                    <img class="img-responsive" src="./assets/images/imagem4.png" alt="...">
+                    <h2><b>Etiquetas personalizadas</b></h2>
+                    <p><b>Material:</b>
+                        BOPP perolado Adesivo;
+                        BOPP transparente.</p>
+                    <a><b>Descrição:</b></a>
+                    <button type="button" id="myBtn2" class="btn btn-secondary" data-toggle="modal"
+                        data-target="#BOPPPeroladoAdesivo">
+                        Saiba mais
+                    </button>
+
+                    <div class="modal fade" id="BOPPPeroladoAdesivo" tabindex="-1" role="dialog"
+                        aria-labelledby="BOPPPeroladoAdesivoTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title"><b>ETIQUETAS PERSONALIZADAS</b></h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p><b>Material:</b>
+                                        BOPP perolado Adesivo;
+                                        BOPP transparente.</p>
+                                    <p><b>Descrição:</b> etiqueta personalizada é planejada a partir da necessidade do
+                                        cliente nas mais
+                                        variadas cores, tamanhos e designs tendo em vista o modelo e a conformação dos
+                                        dados que serão empregados.
+                                    </p>
+                                    <p><b>Utilização:</b> É utilizada no ramo industrial e comercial, como:
+                                        supermercados, farmácias, lojas, fábricas em geral, etc.</p>
+                                    <p>Suas funções são:</p>
+                                    <p>- Demarcação de produtos;</p>
+                                    <p>- Finalização;</p>
+                                    <p>- Identificação.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <h2 class="text-center mb-4"
-                    style="color: rgb(13,62,105); font-size: 30px; font-family: Montserrat, sans-serif; @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,900;1,500&display=swap');">
-                    <b>Serviços</b>
-                </h2>
-                <p class="mb-2" style="color: rgb(13,62,105); font-size: 20px;">Nós da Hit Color Produções Gráficas,
-                    trabalhamos com flexografia na pré-impressão e corte de etiquetas adesivas e rótulos em rolos/bobinas. A
-                    flexografia é indicada para produção de etiquetas adesivas em grandes quantidades. </p>
-                <p style="color: rgb(13,62,105); font-size: 20px;">Estamos situados na cidade de São Carlos, 230Km da cidade
-                    de São Paulo, município do interior paulista que possui o título de Capital da Tecnologia pelo seu
-                    destaque acadêmico, tecnológico e industrial. </p>
-            </div>
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-md-6 col-lg-4 mb-5 mt-4">
-                        <img class="img-responsive" src="./assets/images/imagem3.png" alt="...">
-                        <h2><b>Etiquetas brancas</b></h2>
-                        <p><b>Material:</b> Papel Couchê ou Bopp Fosco Adesivo</p>
-                        <a><b>Descrição:</b></a>
-                        <button type="button" id="myBtn" class="btn btn-secondary" data-toggle="modal"
-                            data-target="#etiquetasBrancas">
-                            Saiba mais
-                        </button>
+                <div class="col-md-6 col-lg-4 mb-5 mt-4">
+                    <img class="img-responsive" src="./assets/images/imagem2.png" alt="...">
+                    <h2><b>Etiquetas para dados variáveis</b></h2>
+                    <a><b>Material:</b> Papel Couchê adesivo; BOPP Fosco Adesivo; BOPP Perolado Adesivo</a>
+                    <br>
+                    <a><b>Descrição:</b></a>
+                    <button type="button" class="btn btn-secondary" data-toggle="modal"
+                        data-target="#etiquetasParaDadosVariáveis">
+                        Saiba mais
+                    </button>
 
-                        <div class="modal fade" id="etiquetasBrancas" tabindex="-1" role="dialog"
-                            aria-labelledby="etiquetasBrancasTitle" aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-centered" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title"><b>ETIQUETAS BRANCAS</b></h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <p><b>Material:</b> Papel Couchê ou Bopp Fosco Adesivo</p>
-                                        <p><b>Descrição:</b> A etiqueta branca é essencial para gerenciar e organizar um estabelecimento de
-                                            modo eficaz e prático e é muito utilizada por possuir uma boa qualidade de
-                                            impressão quando associada ao ribbon correto.
-                                            Como sua classificação revela, não possui nenhum tipo de personalização
-                                            artística e trabalhamos com medidas variadas.
-                                        </p>
-                                        <p><b>Utilização:</b> É utilizada por impressoras térmicas (Zebra, Argox, Elgin,
-                                            Datamax, entre outras) no ramo industrial ou comercial para:</p>
-                                        <p>- Impressão de código de barras;</p>
-                                        <p>- Descrição do produto: data, validade e/ou demais informações;</p>
-                                        <p>- Identificação de embalagens e materiais</p>
-                                        <p>ser colada diretamente sobre a superfície de caixas, plásticos ou outros tipos de
-                                            embalagens.</p>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-                                    </div>
+                    <div class="modal fade" id="etiquetasParaDadosVariáveis" tabindex="-1" role="dialog"
+                        aria-labelledby="etiquetasParaDadosVariáveisTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLongTitle"><b>ETIQUETAS PARA DADOS
+                                            VARIÁVEIS</b></h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <a><b>Material:</b> Papel Couchê adesivo; BOPP Fosco Adesivo; BOPP Perolado
+                                        Adesivo</a>
+                                    <p><b>Descrição</b> São confeccionadas de acordo com o modo de utilização do
+                                        cliente, podendo ter
+                                        variadas cores, tamanhos e designs visando uma melhor conformação dos dados a
+                                        serem anexados.
+                                    </p>
+                                    <p><b>Utilização:</b> É utilizada por impressoras térmicas (Zebra, Argox, Elgin,
+                                        Datamax, entre outras) no ramo industrial ou comercial para:</p>
+                                    <p>- Impressão de código de barras;</p>
+                                    <p>- Descrição do produto: data, validade e/ou demais informações;</p>
+                                    <p>- Identificação de embalagens e materiais</p>
+                                    <P>Pode ser colada diretamente sobre a superfície de caixas, plásticos ou outros
+                                        tipos de embalagens.</P>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 mb-5 mt-4">
-                        <img class="img-responsive" src="./assets/images/imagem4.png" alt="...">
-                        <h2><b>Etiquetas personalizadas</b></h2>
-                        <p><b>Material:</b>
-                            BOPP perolado Adesivo;
-                            BOPP transparente.</p>
-                        <a><b>Descrição:</b></a>
-                        <button type="button" id="myBtn2" class="btn btn-secondary" data-toggle="modal"
-                            data-target="#BOPPPeroladoAdesivo">
-                            Saiba mais
-                        </button>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-5 mt-4">
+                    <img class="img-responsive" src="./assets/images/imagem6.png" alt="...">
+                    <h2><b>Ribbons</b></h2>
+                    <a><b>Material:</b> Cera</a>
+                    <br>
+                    <a><b>Descrição:</b></a>
+                    <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#ribbons">
+                        Saiba mais
+                    </button>
 
-                        <div class="modal fade" id="BOPPPeroladoAdesivo" tabindex="-1" role="dialog"
-                            aria-labelledby="BOPPPeroladoAdesivoTitle" aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-centered" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title"><b>ETIQUETAS PERSONALIZADAS</b></h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <p><b>Material:</b>
-                                            BOPP perolado Adesivo;
-                                            BOPP transparente.</p>
-                                        <p><b>Descrição:</b> etiqueta personalizada é planejada a partir da necessidade do cliente nas mais
-                                            variadas cores, tamanhos e designs tendo em vista o modelo e a conformação dos
-                                            dados que serão empregados.
-                                        </p>
-                                        <p><b>Utilização:</b> É utilizada no ramo industrial e comercial, como:
-                                            supermercados, farmácias, lojas, fábricas em geral, etc.</p>
-                                        <p>Suas funções são:</p>
-                                        <p>- Demarcação de produtos;</p>
-                                        <p>- Finalização;</p>
-                                        <p>- Identificação.</p>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-                                    </div>
+                    <div class="modal fade" id="ribbons" tabindex="-1" role="dialog" aria-labelledby="ribbonsTitle"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLongTitle"><b>RIBBONS</b></h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <a><b>Material:</b> Cera</a>
+                                    <p><b>Descrição:</b> O Ribbon, também chamado de fita de transferência térmica, em
+                                        uma película de material plástico que com tinta e aquecimento, a
+                                        determinada temperatura, transfere informações para a etiqueta. Sua
+                                        película plástica pode ser de três materiais: cera, resina
+                                        ou misto (cera eresina).
+                                    </p>
+                                    <p><b>Utilização:</b> Os ribbons fornecidos pela Hit Color podem ser utilizados
+                                        pelas principais impressoras térmicas utilizadas no mercado, como: Zebra, Argox,
+                                        Elgin e etc.</p>
+                                    <p>Possui um baixo custo, permite a impressão em altas
+                                        velocidades e com qualidade. É utilizado para impressão de
+                                        etiquetas para expedição, etiquetas nutricionais, etiquetas para
+                                        indústria farmacêutica, dentre outras.</p>
+
+                                    <p><em>Resina</em></p>
+
+                                    <p>Possui alta resistência, sendo utilizada em materiais que possam
+                                        ser expostos ao atrito, como: etiquetas para indústria automotiva, etiquetas
+                                        para produtos armazenados em câmara fria,
+                                        para hospitais, laboratórios e etc.</p>
+
+                                    <p><em>Misto</em></p>
+
+                                    <p>Possui maior resistência que o ribbon de cera, entretanto é​​
+                                        menos resistente que o de resina. Está presente nas impressões em
+                                        papel ou filme, como:etiquetas para estantes, etiquetas de
+                                        advertência, etiquetas para caixa de CD e DVD, etiquetas para
+                                        indústria automobilística, etiquetas para componentes e etc.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 mb-5 mt-4">
-                        <img class="img-responsive" src="./assets/images/imagem2.png" alt="...">
-                        <h2><b>Etiquetas para dados variáveis</b></h2>
-                        <a><b>Material:</b> Papel Couchê adesivo; BOPP Fosco Adesivo; BOPP Perolado Adesivo</a>
-                        <br>
-                        <a><b>Descrição:</b></a>
-                        <button type="button" class="btn btn-secondary" data-toggle="modal"
-                            data-target="#etiquetasParaDadosVariáveis">
-                            Saiba mais
-                        </button>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-5 mt-4">
+                    <img class="img-responsive" src="./assets/images/imagem1.png" alt="...">
+                    <h2><b>Etiqueta pra balança</b></h2>
+                    <a><b>Material:</b> Papel Térmico Adesivo</a>
+                    <br>
+                    <a><b>Descrição:</b></a>
+                    <button type="button" class="btn btn-secondary" data-toggle="modal"
+                        data-target="#etiquetaPraBalança">
+                        Saiba mais
+                    </button>
 
-                        <div class="modal fade" id="etiquetasParaDadosVariáveis" tabindex="-1" role="dialog"
-                            aria-labelledby="etiquetasParaDadosVariáveisTitle" aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-centered" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLongTitle"><b>ETIQUETAS PARA DADOS
-                                                VARIÁVEIS</b></h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <a><b>Material:</b> Papel Couchê adesivo; BOPP Fosco Adesivo; BOPP Perolado Adesivo</a>
-                                        <p><b>Descrição</b> São confeccionadas de acordo com o modo de utilização do cliente, podendo ter
-                                            variadas cores, tamanhos e designs visando uma melhor conformação dos dados a
-                                            serem anexados.
-                                        </p>
-                                        <p><b>Utilização:</b> É utilizada por impressoras térmicas (Zebra, Argox, Elgin,
-                                            Datamax, entre outras) no ramo industrial ou comercial para:</p>
-                                        <p>- Impressão de código de barras;</p>
-                                        <p>- Descrição do produto: data, validade e/ou demais informações;</p>
-                                        <p>- Identificação de embalagens e materiais</p>
-                                        <P>Pode ser colada diretamente sobre a superfície de caixas, plásticos ou outros
-                                            tipos de embalagens.</P>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-                                    </div>
+                    <div class="modal fade" id="etiquetaPraBalança" tabindex="-1" role="dialog"
+                        aria-labelledby="etiquetaPraBalançaTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLongTitle"><b>ETIQUETA PARA BALANÇA</b></h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <a><b>Material:</b> Papel Térmico Adesivo</a>
+                                    <p><b>Descrição:</b> A etiqueta para balança é destinada a balanças etiquetadoras
+                                        com modo de
+                                        impressão térmico, possui qualidade de impressão e consolidação dos dados.
+                                        Obedecem um modelo de impressora (tamanho) de acordo com a balança.
+                                        Podem ser personalizadas (pré-impressas) com a inserção de dados de acordo com a
+                                        empresa, como sua logomarca por exemplo.
+                                    </p>
+                                    <p>Nossas etiquetas são indicadas para as principais balanças etiquetadoras do
+                                        mercado, como Toledo, Filizola e Elgin.</p>
+                                    <p> A impressão das informações normalmente é realizada operando impressoras
+                                        térmicas que por sua vez utilizam ribbon na gravação dos dados.</p>
+                                    <p><b>Utilização:</b> É muito utilizada em supermercados, açougues, padarias,
+                                        laboratórios (de biologia, farmacêuticos, médicos e etc), casas de frios,
+                                        rotisserie, dentre outros segmentos comerciais e industriais.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 mb-5 mt-4">
-                        <img class="img-responsive" src="./assets/images/imagem6.png" alt="...">
-                        <h2><b>Ribbons</b></h2>
-                        <a><b>Material:</b> Cera</a>
-                        <br>
-                        <a><b>Descrição:</b></a>
-                        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#ribbons">
-                            Saiba mais
-                        </button>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-5 mt-4">
+                    <img class="img-responsive" src="./assets/images/imagem5.png" alt="...">
+                    <h2><b>Etiquetas para gôndolas ou Tag's</b></h2>
+                    <a><b>Material:</b> Papel cartão</a>
+                    <br>
+                    <a><b>Descrição:</b></a>
+                    <button type="button" class="btn btn-secondary" data-toggle="modal"
+                        data-target="#etiquetasParaGondolasOuTags">
+                        Saiba mais
+                    </button>
 
-                        <div class="modal fade" id="ribbons" tabindex="-1" role="dialog" aria-labelledby="ribbonsTitle"
-                            aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-centered" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLongTitle"><b>RIBBONS</b></h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <a><b>Material:</b> Cera</a>
-                                        <p><b>Descrição:</b> O Ribbon, também chamado de fita de transferência térmica, é uma                                        ​película​ ​de​ material plástico​​ que com​​ tinta​ e ​aquecimento,​ a​
-                                            determinada temperatura, transfere informações para a etiqueta. Sua
-                                            película plástica pode ser de três materiais: cera, resina
-                                            ou misto (cera eresina).
-                                        </p>
-                                        <p><b>Utilização:</b> Os ribbons fornecidos pela Hit Color podem ser utilizados
-                                            pelas principais impressoras térmicas utilizadas no mercado, como: Zebra, Argox,
-                                            Elgin e etc.</p>
-                                        <p>Possui um baixo custo, permite a impressão em altas
-                                            velocidades e com qualidade. É utilizado para impressão de
-                                            etiquetas para expedição, etiquetas nutricionais, etiquetas para
-                                            indústria farmacêutica, dentre outras.</p>
-
-                                        <p><em>Resina</em></p>
-
-                                        <p>Possui alta resistência, sendo utilizada em materiais que possam
-                                            ser expostos ao atrito, como: etiquetas para indústria
-                                            automotiva, etiquetas para produtos armazenados em câmara fria,
-                                            para hospitais, laboratórios e etc.</p>
-
-                                        <p><em>Misto</em></p>
-
-                                        <p>Possui maior resistência que o ribbon de cera, entretanto é​​
-                                            menos resistente que o de resina. Está presente nas impressões em
-                                            papel ou filme, como:etiquetas para estantes, etiquetas de
-                                            advertência, etiquetas para caixa de CD e DVD, etiquetas para
-                                            indústria automobilística, etiquetas para componentes e etc.</p>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-                                    </div>
+                    <div class="modal fade" id="etiquetasParaGondolasOuTags" tabindex="-1" role="dialog"
+                        aria-labelledby="etiquetasParaGondolasOuTagsTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLongTitle"><b>ETIQUETAS PARA GÔNDOLAS OU
+                                            TAG'S</b></h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 mb-5 mt-4">
-                        <img class="img-responsive" src="./assets/images/imagem1.png" alt="...">
-                        <h2><b>Etiqueta pra balança</b></h2>
-                        <a><b>Material:</b> Papel Térmico Adesivo</a>
-                        <br>
-                        <a><b>Descrição:</b></a>
-                        <button type="button" class="btn btn-secondary" data-toggle="modal"
-                            data-target="#etiquetaPraBalança">
-                            Saiba mais
-                        </button>
+                                <div class="modal-body">
+                                    <a><b>Material:</b> Papel cartão</a>
+                                    <p><b>Descrição:</b> As etiquetas para gôndola ou TAGs, normalmente, não são
+                                        adesivas e não apresentam
+                                        personalizações, alêm das cores padrões: amarelo, vermelho e verde. Podem ser
+                                        encaixadas em um suporte, penduradas ou costuradas. Adequam-se ao uso específico
+                                        do seu negócio.
+                                    </p>
+                                    <p> A impressão das informações normalmente é realizada operando impressoras
+                                        térmicas que por sua vez utilizam ribbon na gravação dos dados.</p>
+                                    <p><b>Utilização:</b> São utilizadas mais comumente em supermercados, farmácias,
+                                        padarias, lojas de departamento e etc. Há também a possibilidade de serem
+                                        utilizadas como: ingressos, tickets e bilhetes em cinemas, concertos e outros
+                                        eventos.</p>
+                                    <p>Suas funções são:</p>
 
-                        <div class="modal fade" id="etiquetaPraBalança" tabindex="-1" role="dialog"
-                            aria-labelledby="etiquetaPraBalançaTitle" aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-centered" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLongTitle"><b>ETIQUETA PARA BALANÇA</b></h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <a><b>Material:</b> Papel Térmico Adesivo</a>
-                                        <p><b>Descrição:</b> A etiqueta para balança é destinada a balanças etiquetadoras com modo de
-                                            impressão térmico, possui qualidade de impressão e consolidação dos dados.
-                                            Obedecem um modelo de impressora (tamanho) de acordo com a balança.
-                                            Podem ser personalizadas (pré-impressas) com a inserção de dados de acordo com a
-                                            empresa, como sua logomarca por exemplo.
-                                        </p>
-                                        <p>Nossas etiquetas são indicadas para as principais balanças etiquetadoras do
-                                            mercado, como Toledo, Filizola e Elgin.</p>
-                                        <p> A impressão das informações normalmente é realizada operando impressoras
-                                            térmicas que por sua vez utilizam ribbon na gravação dos dados.</p>
-                                        <p><b>Utilização:</b> É muito utilizada em supermercados, açougues, padarias,
-                                            laboratórios (de biologia, farmacêuticos, médicos e etc), casas de frios,
-                                            rotisserie, dentre outros segmentos comerciais e industriais.</p>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-                                    </div>
+                                    <p>- Identificação de produtos;</p>
+
+                                    <p>- Apresentar informações relevantes ao produto a que se referem.</p>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 mb-5 mt-4">
-                        <img class="img-responsive" src="./assets/images/imagem5.png" alt="...">
-                        <h2><b>Etiquetas para gôndolas ou Tag's</b></h2>
-                        <a><b>Material:</b> Papel cartão</a>
-                        <br>
-                        <a><b>Descrição:</b></a>
-                        <button type="button" class="btn btn-secondary" data-toggle="modal"
-                            data-target="#etiquetasParaGondolasOuTags">
-                            Saiba mais
-                        </button>
-
-                        <div class="modal fade" id="etiquetasParaGondolasOuTags" tabindex="-1" role="dialog"
-                            aria-labelledby="etiquetasParaGondolasOuTagsTitle" aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-centered" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLongTitle"><b>ETIQUETAS PARA GÔNDOLAS OU
-                                                TAG'S</b></h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <a><b>Material:</b> Papel cartão</a>
-                                        <p><b>Descrição:</b> As etiquetas para gôndola ou TAGs, normalmente, não são adesivas e não apresentam
-                                            personalizações, alêm das cores padrões: amarelo, vermelho e verde. Podem ser
-                                            encaixadas em um suporte, penduradas ou costuradas. Adequam-se ao uso específico
-                                            do seu negócio.
-                                        </p>
-                                        <p> A impressão das informações normalmente é realizada operando impressoras
-                                            térmicas que por sua vez utilizam ribbon na gravação dos dados.</p>
-                                        <p><b>Utilização:</b> São utilizadas mais comumente em supermercados, farmácias,
-                                            padarias, lojas de departamento e etc. Há também a possibilidade de serem
-                                            utilizadas como: ingressos, tickets e bilhetes em cinemas, concertos e outros
-                                            eventos.</p>
-                                        <p>Suas funções são:</p>
-
-                                        <p>- Identificação de produtos;</p>
-
-                                        <p>- Apresentar informações relevantes ao produto a que se referem.</p>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-                                    </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <section class="page-section" id="contact">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-8 col-xl-6 text-center">
-                        <h2 class="mt-0">Preencha o formulário!</h2>
-                        <hr class="divider" />
-                        <p class="text-muted mb-5">Faça um orçamento conosco.</p>
-                    </div>
-                </div>
-                <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
-                    <div class="col-lg-6">
-                        <form id="contactForm" method="post" action="https://formspree.io/f/xqkoajpb">
-                            <!-- Name input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="name" name="nome" type="text" placeholder="Enter your name..."/>
-                                <label for="name">Nome</label>
-                            </div>
-                            <!-- Email address input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="email" name="email" type="email" placeholder="nome@gmail.com"/>
-                                <label for="email">Endereço de email</label>
-                            </div>
-                            <!-- Phone number input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="phone" type="tel" name="tel" placeholder="(16) 3416-1611"/>
-                                <label for="phone">Telefone</label>
-                            </div>
-                            <!-- Message input-->
-                            <div class="form-floating mb-3">
-                                <textarea class="form-control" id="message" type="text" name="message" placeholder="Coloque sua mensagem aqui." style="height: 10rem"></textarea>
-                                <label for="message">Mensagem</label>
-                            </div>
-                            <div class="d-grid"><button class="btn btn-primary btn-xl" id="submitButton" type="submit" style="background-color: rgb(13,62,105);">Enviar</button></div>
-                        </form>
-                    </div>
+        </div>
+    </section>
+    <section class="page-section" id="contact">
+        <div class="container px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-lg-8 col-xl-6 text-center">
+                    <h2 class="mt-0">Preencha o formulário!</h2>
+                    <hr class="divider" />
+                    <p class="text-muted mb-5">Faça um orçamento conosco.</p>
                 </div>
             </div>
-        </section>
-        <div class="copyright py-4 text-center text-white" style="background-color:lightslategray">
-            <div class="container"><small>
-                <div class="mb-2" style="color: rgb(36, 46, 93);">Rua Jesuino de Arruda, 1291 CEP 13560-642 - Contato: (16) 3416-1611
+            <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
+                <div class="col-lg-6">
+                    <form id="contactForm" method="post" action="https://formspree.io/f/xqkoajpb">
+                        <!-- Name input-->
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="name" name="nome" type="text"
+                                placeholder="Enter your name..." />
+                            <label for="name">Nome</label>
+                        </div>
+                        <!-- Email address input-->
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="email" name="email" type="email"
+                                placeholder="nome@gmail.com" />
+                            <label for="email">Endereço de email</label>
+                        </div>
+                        <!-- Phone number input-->
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="phone" type="tel" name="tel" placeholder="(16) 3416-1611" />
+                            <label for="phone">Telefone</label>
+                        </div>
+                        <!-- Message input-->
+                        <div class="form-floating mb-3">
+                            <textarea class="form-control" id="message" type="text" name="message"
+                                placeholder="Coloque sua mensagem aqui." style="height: 10rem"></textarea>
+                            <label for="message">Mensagem</label>
+                        </div>
+                        <div class="d-grid"><button class="btn btn-primary btn-xl" id="submitButton" type="submit"
+                                style="background-color: rgb(13,62,105);">Enviar</button></div>
+                    </form>
                 </div>
-                <div style="color: rgb(36, 46, 93);">Horário de funcionamento: Seg à Sex das 8:00 as 12:00 - 13:00 as 17:20</div>
+            </div>
+        </div>
+    </section>
+    <div class="copyright py-4 text-center text-white" style="background-color:lightslategray">
+        <div class="container"><small>
+                <div class="mb-2" style="color: rgb(36, 46, 93);">Rua Jesuino de Arruda, 1291 CEP 13560-642 - Contato:
+                    (16) 3416-1611
+                </div>
+                <div style="color: rgb(36, 46, 93);">Horário de funcionamento: Seg à Sex das 8:00 as 12:00 - 13:00 as
+                    17:20</div>
                 <div><img src="./assets/images/cropped-logo.png" style="width: 16%;"></div>
-                <div style="color: rgb(36, 46, 93);">© Copyright HitColor. Todos os direitos reservados. @lunobregasm</div>
+                <div style="color: rgb(36, 46, 93);">© Copyright HitColor. Todos os direitos reservados. @lunobregasm
+                </div>
             </small>
         </div>
         <!-- Read the Formbutton docs at formspree.io/formbutton/docs. See more examples at codepen.io/formspree -->
         <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
         <script>
-        /* paste this line in verbatim */
-        window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};     
+            /* paste this line in verbatim */
+            window.formbutton = window.formbutton || function () { (formbutton.q = formbutton.q || []).push(arguments) };     
         </script>
-    </body>
+</body>
+
 </html>
